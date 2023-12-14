@@ -5,12 +5,12 @@
 //
 // A glide.yaml file looks like:
 //
-//		package: github.com/Masterminds/glide
-//		imports:
-//		- package: github.com/Masterminds/cookoo
-//		- package: github.com/kylelemons/go-gypsy
-//		  subpackages:
-//		  - yaml
+//	package: github.com/Masterminds/glide
+//	imports:
+//	- package: github.com/Masterminds/cookoo
+//	- package: github.com/kylelemons/go-gypsy
+//	  subpackages:
+//	  - yaml
 //
 // Glide puts dependencies in a vendor directory. Go utilities require this to
 // be in your GOPATH. Glide makes this easy.
@@ -28,7 +28,7 @@ import (
 	"github.com/Masterminds/glide/repo"
 	"github.com/Masterminds/glide/util"
 
-	"github.com/codegangsta/cli"
+	"github.com/urfave/cli"
 
 	"fmt"
 	"os"
