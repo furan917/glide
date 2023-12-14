@@ -5,16 +5,16 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/Masterminds/glide/dependency"
-	"github.com/Masterminds/glide/msg"
+	"github.com/furan917/glide/dependency"
+	"github.com/furan917/glide/msg"
 )
 
 // List lists all of the dependencies of the current project.
 //
 // Params:
-//  - dir (string): basedir
-//  - deep (bool): whether to do a deep scan or a shallow scan
-//  - format (string): The format to output (text, json, json-pretty)
+//   - dir (string): basedir
+//   - deep (bool): whether to do a deep scan or a shallow scan
+//   - format (string): The format to output (text, json, json-pretty)
 func List(basedir string, deep bool, format string) {
 	basedir, err := filepath.Abs(basedir)
 	if err != nil {

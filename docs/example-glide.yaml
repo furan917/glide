@@ -1,5 +1,5 @@
 # The name of this package.
-package: github.com/Masterminds/glide
+package: github.com/furan917/glide
 
 # External dependencies.
 import:

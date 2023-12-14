@@ -11,10 +11,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/Masterminds/glide/cfg"
-	"github.com/Masterminds/glide/msg"
-	gpath "github.com/Masterminds/glide/path"
-	"github.com/Masterminds/glide/util"
+	"github.com/furan917/glide/cfg"
+	"github.com/furan917/glide/msg"
+	gpath "github.com/furan917/glide/path"
+	"github.com/furan917/glide/util"
 )
 
 // MissingPackageHandler handles the case where a package is missing during scanning.
@@ -137,9 +137,9 @@ func (d *DefaultVersionHandler) SetVersion(pkg string, testDep bool) error {
 // Resolver resolves a dependency tree.
 //
 // It operates in two modes:
-// - local resolution (ResolveLocal) determines the dependencies of the local project.
-// - vendor resolving (Resolve, ResolveAll) determines the dependencies of vendored
-//   projects.
+//   - local resolution (ResolveLocal) determines the dependencies of the local project.
+//   - vendor resolving (Resolve, ResolveAll) determines the dependencies of vendored
+//     projects.
 //
 // Local resolution is for guessing initial dependencies. Vendor resolution is
 // for determining vendored dependencies.

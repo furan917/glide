@@ -11,15 +11,15 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Masterminds/glide/cache"
-	"github.com/Masterminds/glide/cfg"
-	"github.com/Masterminds/glide/dependency"
-	"github.com/Masterminds/glide/importer"
-	"github.com/Masterminds/glide/msg"
-	gpath "github.com/Masterminds/glide/path"
-	"github.com/Masterminds/glide/util"
 	"github.com/Masterminds/semver"
 	"github.com/Masterminds/vcs"
+	"github.com/furan917/glide/cache"
+	"github.com/furan917/glide/cfg"
+	"github.com/furan917/glide/dependency"
+	"github.com/furan917/glide/importer"
+	"github.com/furan917/glide/msg"
+	gpath "github.com/furan917/glide/path"
+	"github.com/furan917/glide/util"
 	"github.com/urfave/cli"
 )
 

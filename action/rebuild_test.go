@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Masterminds/glide/msg"
+	"github.com/furan917/glide/msg"
 )
 
 func TestRebuild(t *testing.T) {

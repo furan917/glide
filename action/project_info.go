@@ -3,7 +3,7 @@ package action
 import (
 	"bytes"
 
-	"github.com/Masterminds/glide/msg"
+	"github.com/furan917/glide/msg"
 )
 
 // Info prints information about a project based on a passed in format.

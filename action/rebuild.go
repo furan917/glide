@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/Masterminds/glide/cfg"
-	"github.com/Masterminds/glide/msg"
-	gpath "github.com/Masterminds/glide/path"
+	"github.com/furan917/glide/cfg"
+	"github.com/furan917/glide/msg"
+	gpath "github.com/furan917/glide/path"
 )
 
 // Rebuild rebuilds '.a' files for a project.

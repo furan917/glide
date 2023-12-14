@@ -21,10 +21,10 @@
 // Note, the caching is based on repo rather than package. This is important
 // for a couple reasons.
 //
-// 1. Forks or package replacements are supported in Glide. Where a different
-//    repo maps to a package.
-// 2. Permissions enable different access. For example `https://example.com/foo.git`
-//    and `git@example.com:foo.git` may have access to different branches or tags.
+//  1. Forks or package replacements are supported in Glide. Where a different
+//     repo maps to a package.
+//  2. Permissions enable different access. For example `https://example.com/foo.git`
+//     and `git@example.com:foo.git` may have access to different branches or tags.
 package cache
 
 import (
@@ -39,8 +39,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Masterminds/glide/msg"
-	gpath "github.com/Masterminds/glide/path"
+	"github.com/furan917/glide/msg"
+	gpath "github.com/furan917/glide/path"
 )
 
 // Enabled sets if the cache is globally enabled. Defaults to true.

@@ -5,14 +5,14 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/Masterminds/glide/cache"
-	"github.com/Masterminds/glide/cfg"
-	"github.com/Masterminds/glide/godep"
-	"github.com/Masterminds/glide/msg"
-	gpath "github.com/Masterminds/glide/path"
-	"github.com/Masterminds/glide/repo"
-	"github.com/Masterminds/glide/util"
 	"github.com/Masterminds/semver"
+	"github.com/furan917/glide/cache"
+	"github.com/furan917/glide/cfg"
+	"github.com/furan917/glide/godep"
+	"github.com/furan917/glide/msg"
+	gpath "github.com/furan917/glide/path"
+	"github.com/furan917/glide/repo"
+	"github.com/furan917/glide/util"
 )
 
 // Get fetches one or more dependencies and installs.

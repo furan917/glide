@@ -1,4 +1,5 @@
-/* Package tree contains functions for printing a dependency tree.
+/*
+	Package tree contains functions for printing a dependency tree.
 
 The future of the tree functionality is uncertain, as it is neither core to
 the functionality of Glide, nor particularly complementary. Its principal use
@@ -18,7 +19,7 @@ import (
 
 func TestFindInTree(t *testing.T) {
 	l := list.New()
-	l.PushBack("github.com/Masterminds/glide")
+	l.PushBack("github.com/furan917/glide")
 	l.PushBack("github.com/Masterminds/vcs")
 	l.PushBack("github.com/Masterminds/semver")
 
